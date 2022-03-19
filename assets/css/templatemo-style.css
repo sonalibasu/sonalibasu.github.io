@@ -9,7 +9,7 @@ https://templatemo.com/tm-531-reflux
 @import url(fontawesome.css);
 @import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900");
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat',sans-serif;
 }
 
 #page-wraper {
@@ -40,17 +40,38 @@ a:hover {
 }
 
 p {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 24px;
     color: #fff;
 }
 
 h4 {
-    font-size: 26px;
+    font-size: 22px;
     font-weight: 700;
     color: #fff;
     letter-spacing: 0.25px;
 }
+
+#prof_pos {
+    color: #fff;
+    letter-spacing: 0.25px;
+    text-align:left;
+}
+
+#prof {
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #fff;
+    letter-spacing: 0.25px;
+    text-align:left;
+}
+
+#prof_desc{
+    text-align:left;
+}
+
 
 img {
     width: 100%;
@@ -126,7 +147,7 @@ html {
 .main-nav li:hover a,
 .main-nav li.active a {
     background: #fff;
-    color: #8c363e;
+    color: #3d2758;
 }
 
 /* Sidebar Menu */
@@ -136,14 +157,14 @@ html {
 }
 
 .menu .image img {
-    width: 190px;
-    height: 190px;
+    width: 210px;
+    height: 210px;
     border-radius: 50%;
     text-align: center;
 }
 
 .menu .author-content {
-    margin: 40px 0px 60px 0px;
+    margin: 30px 0px 30px 0px;
 }
 
 .menu .author-content h4 {
@@ -151,13 +172,13 @@ html {
 }
 
 .menu .author-content span {
-    font-size: 13px;
+    font-size: 14px;
     font-style: italic;
     color: #fff;
 }
 
 .menu .social-network {
-    margin-top: 60px;
+    margin-top: 10px;
 }
 
 .menu .social-network ul li {
@@ -165,15 +186,17 @@ html {
 }
 
 .menu .social-network ul li a {
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
+    margin: 0px 5px 20px 0px;
     display: inline-block;
     text-align: center;
     line-height: 40px;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(202, 196, 209, 0.2);
     color: #fff;
     font-size: 14px;
     transition: all 0.5s;
+    outline: 1px solid rgb(255, 255, 255)
 }
 
 .menu .social-network ul li a:hover {
@@ -289,36 +312,37 @@ html {
     right: 10%;
     left: 35%;
     position: relative;
-    min-height: 100vh;
-    padding-bottom: 80px;
-    border-bottom: 3px solid rgba(250, 250, 250, 0.25);
+    min-height: 50vh;
+    padding-bottom: 10px;
 }
 
 .section-heading {
     text-align: center;
-    padding: 80px 45px;
+    padding: 25px 10px 0px 10px;
 }
 
 .section-heading h2 {
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 700;
     color: #fff;
+    background-color: rgba(250, 250, 250, 0.1);
+    padding: 15px 15px;
 }
 
 .section-heading .line-dec {
-    width: 60px;
-    height: 3px;
-    background-color: #3d2758;
+    width: 75px;
+    height: 2px;
+    background-color: #f0f0f0;
     margin: 10px auto;
 }
 
 .section-heading span {
-    margin-top: 5px;
-    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 14px;
     color: #fff;
     letter-spacing: 0.5px;
 }
-
 
 /* Buttons */
 
@@ -372,11 +396,12 @@ button:hover {
 .left-image img,
 .right-image img {
     border-radius: 5px;
+    margin-top: 10px;
 }
 
 .right-image-post h4,
 .left-image-post h4 {
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .right-image-post p,
@@ -471,7 +496,7 @@ button:hover {
 
 section.my-work .section-heading {
     text-align: center;
-    padding: 80px 45px 50px 45px;
+    padding: 0px 0px 0px 0px;
 }
 
 .isotope-wrapper {
@@ -497,8 +522,10 @@ section.my-work .section-heading {
 }
 
 .isotope-toolbar input[type="radio"]:checked + span {
-    color: #3d2758;
-    border-bottom: 2px solid #3d2758;
+    color: #f5f5f5;
+    border-bottom: 2px solid #ffffff;
+    background-color:rgba(250,250,250,0.1) ;
+    padding: 7px;
 }
 
 .isotope-box {
