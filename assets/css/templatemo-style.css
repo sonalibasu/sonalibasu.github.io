@@ -48,6 +48,13 @@ p {
     color: #fff;
 }
 
+#qs-uni {
+    font-size: 14px;
+    line-height: 24px;
+    color: rgb(136, 182, 190);
+    text-decoration: underline;
+}
+
 h4 {
     font-size: 22px;
     font-weight: 700;
@@ -55,10 +62,29 @@ h4 {
     letter-spacing: 0.25px;
 }
 
+h6{
+    margin-top:7px;
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+    letter-spacing: 0.25px;
+}
+
+h7{
+    margin-top:3px;
+    font-size: 13px;
+    font-weight: 700;
+    color: rgb(48, 47, 47);
+    letter-spacing: 0.25px;
+    font-style: italic
+}
+
 #prof_pos {
     color: #fff;
     letter-spacing: 0.25px;
     text-align:left;
+    font-size: 15px;
+    margin-top:4px;
 }
 
 #prof {
