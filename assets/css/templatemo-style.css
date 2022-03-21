@@ -55,6 +55,14 @@ p {
     text-decoration: underline;
 }
 
+
+.hlink-light-bg {
+    font-size: 14px;
+    line-height: 24px;
+    color: rgb(124, 203, 255);
+    text-decoration: underline;
+}
+
 h4 {
     font-size: 22px;
     font-weight: 700;
