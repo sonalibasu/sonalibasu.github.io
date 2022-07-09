@@ -15,7 +15,7 @@ body {
 
 #page-wraper {
     background: url(../images/page-bg.jpg) no-repeat center center fixed;
-    box-shadow: inset 0 0 0 100vmax rgba(0,0,0,.65);
+    box-shadow: inset 0 0 0 100vmax rgba(0, 0, 0, 0.742);
 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -43,13 +43,30 @@ a:hover {
 }
 
 p {
-    font-size: 14px;
+    font-size: 15px;
     line-height: 24px;
     color: #fff;
 }
 
+.block-intro {
+    padding:20px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #fff;
+    text-align: center;
+}
+
+.block-centre {
+    padding:20px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #fff;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
 #qs-uni {
-    font-size: 14px;
+    font-size: 15px;
     line-height: 24px;
     color: rgb(136, 182, 190);
     text-decoration: underline;
@@ -57,7 +74,7 @@ p {
 
 
 .hlink-light-bg {
-    font-size: 14px;
+    font-size: 15px;
     line-height: 24px;
     color: rgb(124, 203, 255);
     text-decoration: underline;
@@ -92,14 +109,12 @@ h7{
     letter-spacing: 0.25px;
     text-align:left;
     font-size: 15px;
-    margin-top:4px;
 }
 
 #prof {
     font-size: 22px;
     font-weight: 700;
     margin-top: 5px;
-    margin-bottom: 10px;
     color: #fff;
     letter-spacing: 0.25px;
     text-align:left;
@@ -209,7 +224,7 @@ html {
 }
 
 .menu .author-content span {
-    font-size: 14px;
+    font-size: 15px;
     font-style: italic;
     color: #fff;
 }
@@ -249,6 +264,7 @@ html {
 .menu .copyright-text {
     position: relative;
     margin-top: 60px;
+    font-size: 12px;
 }
 
 .menu .copyright-text p {
@@ -367,7 +383,9 @@ html {
     font-size: 28px;
     font-weight: 700;
     color: #fff;
-    background-color: rgba(250, 250, 250, 0.2);
+    border-top: #f0f0f0;
+    border-style: inset;
+    background-color: rgba(0, 0, 0, 0.338);
     padding: 15px 15px;
     margin-bottom: 15px;
 }
@@ -453,6 +471,7 @@ button:hover {
 .right-image-post h4,
 .left-image-post h4 {
     margin-top: 20px;
+    padding-bottom:10px;
 }
 
 .right-image-post p,
@@ -476,16 +495,29 @@ button:hover {
 .service-item {
     margin-bottom: 10px;
     padding: 30px;
-    background-color: rgba(250, 250, 250, 0.2);
+    background-color: rgba(0, 0, 0, 0.4);
     transition: all 0.5s;
 }
 
-.contacts {
-    margin-top: 20px;
-    padding: 10px;
-    background-color: rgba(250, 250, 250, 0.2);
+#rewards {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.134);
     transition: all 0.5s;
     align-items: center;
+    text-align: left;
+    border-style: groove;
+    border:1px solid rgba(255, 255, 255, 0.407);
+    border-radius: 5px;
+}
+
+#contacts {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.381);
+    transition: all 0.5s;
+    align-items: center;
+    text-align: left;
 }
 
 .service-item h4 {
@@ -497,7 +529,7 @@ button:hover {
 }
 
 .service-item:hover {
-    background-color: rgba(250, 250, 250, 1);
+    background-color: rgba(250, 250, 250, 0.827);
 }
 
 .service-item:hover h4 {
@@ -505,7 +537,7 @@ button:hover {
 }
 
 .service-item:hover p {
-    color: #4a4a4a;
+    color: black;
 }
 
 .service-item .service-icon {
