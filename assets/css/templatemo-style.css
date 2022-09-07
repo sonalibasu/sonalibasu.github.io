@@ -223,7 +223,7 @@ html {
 }
 
 .menu .author-content {
-    margin: 30px 0px 30px 0px;
+    margin: 20px 0px 20px 0px;
 }
 
 .menu .author-content h4 {
@@ -231,13 +231,8 @@ html {
 }
 
 .menu .author-content span {
-    font-size: 15px;
-    font-style: italic;
-    color: #fff;
-}
-
-#location {
     font-size: 14px;
+    font-style:italic;
     color: #fff;
 }
 
